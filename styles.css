@@ -2,25 +2,26 @@
     background: #d1d1d1;;
 
 }
-i.fa-brands.fa-facebook.fa-2xl,
-i.fa-brands.fa-linkedin.fa-2xl,
-i.fa-brands.fa-instagram.fa-2xl,
-i.fa-solid.fa-user.fa-2xl{
+.fa-brands.fa-facebook.fa-2xl,
+.fa-brands.fa-linkedin.fa-2xl,
+.fa-brands.fa-instagram.fa-2xl,
+.fa-solid.fa-user.fa-2xl{
 
 color: #fff   
 }
-i.fa-brands.fa-facebook.fa-2xl{
+.fa-brands fa-instagram.fa-xl{
+    color:rgb(240, 143, 240)
+    }
+.fa-brands fa-facebook.fa-2xl{
     color:blue
     }
-i.fa-brands.fa-lindekin.fa-2xl{
-color:rgb(rgb(62, 126, 221))
+.fa-brands fa-lindekin.fa-2xl{
+color:rgb(62, 126, 221)
 }
-i.fa-brands.fa-instagram.fa-2xl{
-    color:rgb(rgb(240, 143, 240)
-    }
-i.fa-solid.fa-user.fa-2xl{
-color:rgb(rgb(221, 119, 119)
-        }
+
+.fa-solid.fa-user.fa-2xl{
+color:rgb(221, 119, 119)
+ }
 .list-group{
     --darkreader-bg--bs-list-group-bg: transparent;
 }
