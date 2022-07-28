@@ -1,32 +1,31 @@
 body{
-    background-image: url(../IMG/tumblr_2900d0806a515f67abcef9818849944d_6cbe1f50_1280.jpg);
+    background-image:url(https://i.pinimg.com/564x/16/6a/68/166a68cd49c254105d5c22bfd02cc34e.jpg);
 }
 .navbar.navbar-expand-lg.bg-danger{
     background-color:#c7abc04d;
 }
-.list-group{
-    background-color: aliceblue;
-
+.list-group-item{
+    background-color:transparent;
+    color:aliceblue;
 }
-i.fa-brands.fa-facebook.fa-2xl,
-i.fa-brands.fa-linkedin.fa-2xl,
-i.fa-brans.fa-instagram.fa-2xl,
-i.fa-solid.fa-user.fa-2xl{
-    background-color:rgb(41, 132, 206)
+.fa-instagram:hover{
+    cursor:pointer;
+    color:rgb(180, 49, 141)
 }
-fa-brans.fa-facebook.fa-2xl:hover{
-    color:blue;
+.fa-facebook:hover{
+    cursor:pointer;
+    color:rgb(9, 6, 192)
 }
-i.fa-brans.fa-linkelin.fa-2xl:hover{
-    color:rgb(41, 132, 206) 
-}   
-i.fa-brans.fa-instagram.fa-2xl:hover{
-    color:rgb(219, 84, 197)
+.fa-linkedin:hover{
+    cursor:pointer;
+    color:rgb(22, 83, 163)
 }
-i.fa-solid.fa-user.fa-2xl:hover{
-    color:rgb(150, 20, 80)
+.fa-user:hover{
+    cursor:pointer;
+    color:rgb(231, 137, 13)
 }
-
+.carousel-item > img { 
+    max-height: 50vh}
 section.about{
     margin: top 1px;
 }
