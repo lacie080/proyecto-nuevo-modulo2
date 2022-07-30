@@ -1,27 +1,9 @@
 .navbar.navbar-expand-lg.bg-secondary{
     background: #d1d1d1;;
 
-}
-.fa-brands.fa-facebook.fa-2xl,
-.fa-brands.fa-linkedin.fa-2xl,
-.fa-brands.fa-instagram.fa-2xl,
-.fa-solid.fa-user.fa-2xl{
-
-color: #fff   
-}
-.fa-brands fa-instagram.fa-xl{
-    color:rgb(240, 143, 240)
-    }
-.fa-brands fa-facebook.fa-2xl{
-    color:blue
-    }
-.fa-brands fa-lindekin.fa-2xl{
-color:rgb(62, 126, 221)
+.fa-instagram:hover{
+    cursor:pointer;
+    color: #fff
 }
 
-.fa-solid.fa-user.fa-2xl{
-color:rgb(221, 119, 119)
- }
-.list-group{
-    --darkreader-bg--bs-list-group-bg: transparent;
 }
