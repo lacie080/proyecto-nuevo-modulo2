@@ -1,30 +1,34 @@
 body{
-    background-image: url(../IMG/tumblr_2900d0806a515f67abcef9818849944d_6cbe1f50_1280.jpg);
+    background-image: url(../IMG/patron2.jpg)
 }
-.navbar.navbar-expand-lg.bg-danger{
-    background-color:#c7abc04d;
+.navbar.navbar-expand-lg.bg-dark{
+    background-color:transparent;
 }
-.list-group{
-    background-color: aliceblue;
+.list-group-item{
+    background-color:aliceblue;
+    width: 75px;
+    height: 30px;
+    
+}
+
+-----------------COLOR EN LOS ICONOS----------------------
+.fa-instagram:hover{
+    cursor:pointer;
+    color:#FF33DA;
+    
+}
+.fa-facebook:hover{
+cursor:pointer;
+color:blue;
 
 }
-i.fa-brands.fa-facebook.fa-2xl,
-i.fa-brands.fa-linkedin.fa-2xl,
-i.fa-brans.fa-instagram.fa-2xl,
-i.fa-solid.fa-user.fa-2xl{
-    background-color:rgb(41, 132, 206)
+.fa-linkedin:hover{
+    cursor:pointer;
+    color:#2984D5;
 }
-fa-brans.fa-facebook.fa-2xl:hover{
-    color:blue;
-}
-i.fa-brans.fa-linkelin.fa-2xl:hover{
-    color:rgb(41, 132, 206) 
-}   
-i.fa-brans.fa-instagram.fa-2xl:hover{
-    color:rgb(219, 84, 197)
-}
-i.fa-solid.fa-user.fa-2xl:hover{
-    color:rgb(150, 20, 80)
+.fa-user:hover{
+    cursor:pointer;
+    color:rgb(7, 102, 58);
 }
 
 section.about{
