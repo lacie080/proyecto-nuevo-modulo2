@@ -1,13 +1,13 @@
 body{
-    background-image: url(../IMG/patron2.jpg)
+    background-image: url(https://i.pinimg.com/564x/16/6a/68/166a68cd49c254105d5c22bfd02cc34e.jpg)
 }
+
 .navbar.navbar-expand-lg.bg-dark{
     background-color:transparent;
 }
 .list-group-item{
-    background-color:aliceblue;
-    width: 75px;
-    height: 30px;
+    background-color:transparent;
+    color:aliceblue;
     
 }
 
@@ -29,8 +29,27 @@ color:blue;
 .fa-user:hover{
     cursor:pointer;
     color:rgb(7, 102, 58);
+    background-color:transparent;
+    color:aliceblue;
 }
-
+.fa-instagram:hover{
+    cursor:pointer;
+    color:rgb(180, 49, 141)
+}
+.fa-facebook:hover{
+    cursor:pointer;
+    color:rgb(9, 6, 192)
+}
+.fa-linkedin:hover{
+    cursor:pointer;
+    color:rgb(22, 83, 163)
+}
+.fa-user:hover{
+    cursor:pointer;
+    color:rgb(231, 137, 13)
+}
+.carousel-item > img { 
+    max-height: 50vh}
 section.about{
     margin: top 1px;
 }
