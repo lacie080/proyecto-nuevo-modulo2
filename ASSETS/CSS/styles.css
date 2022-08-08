@@ -1,14 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+
+*{
+    font-family: 'Quicksand', sans-serif;
+}
 body{
-    background-image: url(https://i.pinimg.com/564x/16/6a/68/166a68cd49c254105d5c22bfd02cc34e.jpg)
+    background:url(https://i.pinimg.com/564x/11/d6/8f/11d68fcc1146fd2ee3c53280b1bf64ad.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
 }
 
-.navbar.navbar-expand-lg.bg-dark{
-    background-color:transparent;
+.navbar.navbar-expand-lg.bg{
+    background-color:navajowhite
 }
 .list-group-item{
     background-color:transparent;
-    color:aliceblue;
+    border:0px;
     
+}
+.list-group-horizonta{
+    color:transparent;
 }
 
 -----------------COLOR EN LOS ICONOS----------------------
@@ -51,5 +64,37 @@ color:blue;
 .carousel-item > img { 
     max-height: 50vh}
 section.about{
-    margin: top 1px;
+    margin: top 25px;
 }
+-----------section--------------------
+section.sobre-mi{
+    margin-top: 7.5rem;
+    background-image: url(../IMG/cute\ pastel.jpg)
+}
+.btn {
+    color: #ECD06A;
+    background: transparent;
+    border: 2px solid #C89E06;
+    border-radius: 6px;
+}
+.rounded-circle w-75{
+position: absolute;
+z-index: 1;
+background-color: #FFFFFF;
+height: auto;
+width: 5rem!important;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif
+}
+--------ESTO ES DE DASHBOARD--------------
+.nav-link{
+    color: #000000;
+    border: 2px;
+    border-radius:6px;
+}
+<!----textos----------->
+p.text-justify {font-family:italic;}
+p.text-justify{font-size:large;}
+h5{font-size: 25px;}
+h5{font-weight: bold;}
