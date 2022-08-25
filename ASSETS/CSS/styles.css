@@ -5,7 +5,7 @@
     font-family: 'Quicksand', sans-serif;
 }
 body{
-    background:url(https://i.pinimg.com/564x/11/d6/8f/11d68fcc1146fd2ee3c53280b1bf64ad.jpg);
+    background:url(https://i.pinimg.com/564x/e6/21/a1/e621a14907dec442c13bf61aa4d46290.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,7 +13,7 @@ body{
 }
 
 .navbar.navbar-expand-lg.bg{
-    background-color:navajowhite
+    background-color:rgb(247, 195, 221)
 }
 .list-group-item{
     background-color:transparent;
@@ -101,7 +101,10 @@ p.text-justify {font-family:italic;}
 p.text-justify{font-size:large;}
 h5{font-size: 25px;}
 h5{font-weight: bold;}
-h3{color:rgb(126, 14, 218);}
+h3{color:rgb(0, 0, 0);}
+h5{
+    text-align: center;
+}
 <1-----------------BARRA PROGRESO------------------------>
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 
@@ -141,4 +144,13 @@ h2{
 }
 .habilidades:active .progreso {
     animation:Aumentar 5s ease
+}
+.col-md-6{
+    width:1000%;
+    height:680%;
+    background:rgb(255, 255, 255);
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
