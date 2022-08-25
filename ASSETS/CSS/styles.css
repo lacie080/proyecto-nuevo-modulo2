@@ -76,13 +76,16 @@ section.sobre-mi{
     background: transparent;
     border: 2px solid #C89E06;
     border-radius: 6px;
+    margin-left:5rem;
 }
-.rounded-circle w-75{
+.rounded-circle.w-75{
 position: absolute;
 z-index: 1;
 background-color: #FFFFFF;
 height: auto;
-width: 5rem!important;
+width: 12rem !important;
+margin-top: -5rem;
+margin-left: 5rem;
 }
 body{
     font-family:Arial, Helvetica, sans-serif
@@ -98,3 +101,44 @@ p.text-justify {font-family:italic;}
 p.text-justify{font-size:large;}
 h5{font-size: 25px;}
 h5{font-weight: bold;}
+h3{color:rgb(126, 14, 218);}
+<1-----------------BARRA PROGRESO------------------------>
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+
+.contenedor{
+    margin:auto;
+    width: 100vh;
+    height:100vh;
+display:flex;
+flex-wrap:wrap;
+align-items: center;
+}
+.barra{
+    width:350px;
+    height:20px;
+    background: rgba(225, 225,225,0.5);
+    border-radius:10px;
+    box-shadow: 20px 25px 45px rgba(0,0,0,0.1);
+    border-right: 3px solid rgba(225,225,225,0.5);
+    border-bottom: 3px solid rgba(225,225,225,0.5);
+}
+h2{
+    text-align:center;
+
+}
+.progreso{
+    width: var(--w);
+    height:100%;
+    background:rgba(255, 44, 255, 0.096);
+    border-radius:10px;
+    animation:Aumentar 5s ease;
+
+}
+@keyframes Aumentar{
+    0%{width:0%;}
+    100%{width: var(--w)}
+}
+.habilidades:active .progreso {
+    animation:Aumentar 5s ease
+}
