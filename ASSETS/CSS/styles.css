@@ -66,11 +66,20 @@ color:blue;
 section.about{
     margin: top 25px;
 }
------------section--------------------
+
 section.sobre-mi{
-    margin-top: 7.5rem;
-    background-image: url(../IMG/cute\ pastel.jpg)
+    background-color:rgba(252, 252, 252, 0.651)
 }
+section.Educación{
+    background-color:rgba(252, 252, 252, 0.651)
+}
+section.experiencia{
+    background-color:rgba(252, 252, 252, 0.651)
+}
+section.proyectos{
+    background-color:rgba(252, 252, 252, 0.651)
+}
+
 .btn {
     color: #ECD06A;
     background: transparent;
@@ -104,6 +113,10 @@ h5{font-weight: bold;}
 h3{color:rgb(0, 0, 0);}
 h5{
     text-align: center;
+}
+h5.educacion{
+    margin-top:1em;
+    text-decoration: underline;
 }
 <1-----------------BARRA PROGRESO------------------------>
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
@@ -153,4 +166,46 @@ h2{
     border-top-right-radius:20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+}
+------------------editar icono--------------------
+.fa-pencil{
+    position:absolute;
+    margin left :-5rem;
+   border:none;
+}
+ 
+
+.icono {
+    font-size: 55px;
+    color:rgba(204, 18, 164, 0.877);
+    padding-top: 0.5em;
+    padding-right:1em;
+    padding-bottom:2em;
+    padding-left:2.5em;
+
+  
+
+}
+
+img.unlam{
+    width:300px;
+    height:200px;
+    
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top:-5em;
+    margin-left:2em;
+    margin-bottom:-1em;
+
+}
+.Expericono{
+    font-size: 55px;
+    color:rgba(204, 18, 164, 0.877);
+    padding-top: 0.5em;
+    padding-right:1em;
+    padding-bottom:2em;
+    padding-left:2.5em;
+
 }
